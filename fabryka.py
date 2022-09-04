@@ -30,7 +30,7 @@ filejson = response.json()
 ourdata = []
 csvheader = ['event_id','type','subject','start_date','end_date','affected_personel','note']
 
-temp_id=0
+temp_id = 0
 
 for x in filejson:
     temp_id = 0
